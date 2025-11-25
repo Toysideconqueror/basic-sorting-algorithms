@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Sorting Algorithms</title>
+</head>
+<body>
+
+    <header>
+        <h1>Introduction to Sorting Algorithms</h1>
+        <p>A visual guide to understanding how computers organize data.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Bubble Sort</h2>
+            <p>Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order.</p>
+            
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" 
+                     alt="Animation showing how Bubble Sort moves the largest element to the end of the list step by step."
+                     width="300">
+                <figcaption>Figure 1: Bubble Sort Visualization</figcaption>
+            </figure>
+
+            <h3>Key Characteristics:</h3>
+            <ul>
+                <li><strong>Complexity:</strong> O(n²) - Very slow on large lists.</li>
+                <li><strong>Method:</strong> Exchanging (Swapping).</li>
+                <li><strong>Best for:</strong> Educational purposes and very small datasets.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Selection Sort</h2>
+            <p>The selection sort algorithm sorts an array by repeatedly finding the minimum element from the unsorted part and putting it at the beginning.</p>
+
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif" 
+                     alt="Animation showing Selection Sort finding the smallest bar and moving it to the sorted position."
+                     width="300">
+                <figcaption>Figure 2: Selection Sort Visualization</figcaption>
+            </figure>
+
+            <h3>Steps to perform:</h3>
+            <ol>
+                <li>Set the first element as the minimum.</li>
+                <li>Compare minimum with the second element. If the second element is smaller, assign it as the new minimum.</li>
+                <li>After iterating through the list, swap the minimum with the first element.</li>
+                <li>Repeat for the rest of the list.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>3. Insertion Sort</h2>
+            <p>Insertion sort works similarly to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part.</p>
+
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif" 
+                     alt="Animation showing Insertion Sort inserting a value into its correct position."
+                     width="300">
+                <figcaption>Figure 3: Insertion Sort Visualization</figcaption>
+            </figure>
+        </section>
+
+        <hr> <section>
+            <h2>4. Merge Sort</h2>
+            <p>Merge Sort is a "Divide and Conquer" algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.</p>
+
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif" 
+                     alt="Diagram showing the splitting and merging process of Merge Sort."
+                     width="300">
+                <figcaption>Figure 4: Merge Sort process</figcaption>
+            </figure>
+
+            <h3>Why use it?</h3>
+            <ul>
+                <li><strong>Complexity:</strong> O(n log n).</li>
+                <li><strong>Stability:</strong> It preserves the order of equal elements.</li>
+                <li><strong>Usage:</strong> Great for sorting linked lists.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Quick Sort</h2>
+            <p>QuickSort is also a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot.</p>
+
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif" 
+                     alt="Animation showing Quick Sort partitioning the array using a pivot."
+                     width="300">
+                <figcaption>Figure 5: Quick Sort Partitioning</figcaption>
+            </figure>
+
+            <h3>How it partitions:</h3>
+            <ol>
+                <li>Choose a pivot (e.g., last element).</li>
+                <li>Move all smaller elements to the left of the pivot.</li>
+                <li>Move all greater elements to the right of the pivot.</li>
+                <li>Recursively apply to sub-arrays.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Introduction to HTML5 Project. Created for Coursera Peer Review.</p>
+    </footer>
+
+</body>
+</html>
