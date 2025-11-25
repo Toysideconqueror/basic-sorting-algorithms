@@ -1,0 +1,71 @@
+/* 1. Style the body tag: modify font family and font size */
+body {
+    font-family: 'Arial', Helvetica, sans-serif; /* Phông chữ dễ đọc */
+    font-size: 18px; /* Kích thước chữ cơ bản */
+    margin: 0; /* Xóa khoảng trắng thừa mặc định của trình duyệt */
+    background-color: #f4f4f4; /* Màu nền xám nhẹ cho toàn trang */
+}
+
+/* 2. Style the header tag: modify background color */
+header {
+    background-color: #2c3e50; /* Màu xanh đậm sang trọng */
+    color: white; /* Chữ màu trắng để tương phản tốt (Pass Wave Validator) */
+    padding: 20px;
+}
+
+/* 3. Style the nav tag: modify background color */
+nav {
+    background-color: #34495e; /* Màu xanh nhạt hơn header một chút */
+    padding: 10px;
+    text-align: center;
+}
+
+/* 4. Style the li tag: modify display and width properties */
+/* Lưu ý: Chúng ta chỉ style li trong nav để tạo menu ngang, tránh làm hỏng danh sách bài học */
+nav li {
+    display: inline-block; /* Biến danh sách dọc thành ngang */
+    width: 15%; /* Chia đều chiều rộng */
+    margin: 0 10px;
+}
+
+/* Trang trí thêm cho link trong menu để đẹp hơn */
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* 5. Style the main tag: modify background color and font size */
+main {
+    background-color: #ffffff; /* Nền trắng cho nội dung chính dễ đọc */
+    font-size: 1.1em; /* Tăng cỡ chữ lên 10% so với body */
+    width: 80%;
+    margin: 20px auto; /* Căn giữa nội dung */
+    padding: 20px;
+    border-radius: 8px; /* Bo tròn góc nhẹ nhàng */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Tạo bóng đổ nhẹ */
+}
+
+/* 6. Style the h1 tag: modify text alignment, font family, and color */
+h1 {
+    text-align: center; /* Căn giữa tiêu đề */
+    font-family: 'Georgia', serif; /* Đổi sang phông có chân cho trang trọng */
+    color: #ecf0f1; /* Màu trắng kem */
+    margin: 0;
+}
+
+/* 7. Style the p tag: modify line height */
+p {
+    line-height: 1.6; /* Tăng khoảng cách dòng để dễ đọc hơn */
+    color: #333333; /* Màu chữ xám đậm, dịu mắt hơn đen tuyền */
+}
+
+/* 8. Style the footer tag: modify background color */
+footer {
+    background-color: #2c3e50; /* Đồng bộ màu với header */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
